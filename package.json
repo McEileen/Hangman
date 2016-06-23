@@ -1,10 +1,10 @@
 {
-  "name": "jqdemo",
+  "name": "hangman",
   "version": "1.0.3",
   "scripts": {
-    "dev": "DB=jqdemo LEVEL=silly PORT=3333 nodemon dst/server.js"
+    "dev": "DB=hangman LEVEL=silly PORT=4444 nodemon dst/server.js"
   },
-  "author": "Chyld Medford",
+  "author": "Eileen",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.10.1",

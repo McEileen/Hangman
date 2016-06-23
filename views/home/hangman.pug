@@ -1,0 +1,14 @@
+extends ../shared/template
+block content
+  h1 Hangman
+  button#new New Game
+  span#NumGuesses
+  ul
+    li
+      input#firstLetter(type='text')
+    li
+      input#secondLetter(type='text')
+      li
+        input#thirdLetter(type='text')
+      li
+        input#fourthLetter(type='text')
